@@ -169,6 +169,16 @@ if (error) {
           </div>
         </div>
       </div>
+              {/* BUILT WITH BOLT BADGE */}
+        <a 
+          href="https://bolt.new" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="fixed bottom-4 right-4 z-50 flex items-center gap-2 rounded-lg bg-gray-900/80 px-3 py-2 text-sm text-gray-300 border border-gray-700 backdrop-blur-sm transition-colors hover:bg-gray-800"
+        >
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.10853 14L9.10853 6.13112L6.10853 6.13112L10.8915 1L5.89147 8.86888L8.89147 8.86888L4.10853 14Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+          Built with Bolt.new
+        </a>
     </div>
   );
 }
